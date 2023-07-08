@@ -1,4 +1,5 @@
 .calculator {
+    background-color: rgb(159, 211, 250);
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);

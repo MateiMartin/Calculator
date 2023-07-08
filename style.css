@@ -1,0 +1,138 @@
+.calculator {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+  }
+
+  .calculator div{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 70px;
+    cursor: pointer;
+  }
+
+    .calculator div:hover{
+        background-color: #000;
+        color: #fff;
+    }
+
+  .zero{
+    grid-column: 2;
+    grid-row: 7;
+  }
+
+  .one{
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+    .two{
+        grid-column: 2;
+        grid-row: 6;
+    }
+
+    .three{
+        grid-column: 3;
+        grid-row: 6;
+    }
+
+    .four{
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .five{
+        grid-column: 2;
+        grid-row: 5;
+    }
+
+    .six{
+        grid-column: 3;
+        grid-row: 5;
+    }
+
+    .seven{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .eight{
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .nine{
+        grid-column: 3;
+        grid-row: 4;
+    }
+
+    .dot{
+        grid-column: 3;
+        grid-row: 7;
+    }
+
+    .equal{
+        background-color: #00FF00;
+        grid-column: 4;
+        grid-row: 7;
+    }
+
+    .plus{
+        color: #00FF00;
+        grid-column: 4;
+        grid-row: 6;
+    }
+
+    .minus{
+        color: #00FF00;
+        grid-column: 4;
+        grid-row: 5;
+    }
+
+    .multiply{
+        color: #00FF00;
+        grid-column: 4;
+        grid-row: 4;
+    }
+
+    .divide{
+        color: #00FF00;
+        grid-column: 4;
+        grid-row: 3;
+    }
+
+    .C{
+        color: limegreen;
+        grid-column: 4;
+        grid-row: 2;
+    }
+    .delete{
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .color{
+       width: 100%;
+       height: 100%;
+       grid-column: 1;
+       grid-row: 7;
+    }
+    .text{
+        border: solid 1px #000;
+        grid-column: 1/4;
+        grid-row: 1/4;
+        font-size: 100px;
+    }
+    .img{
+        width: 10px;
+        height: 10px;
+    }
+
+   

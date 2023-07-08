@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 .calculator {
     background-color: rgb(171, 198, 218);
     height: 100vh;

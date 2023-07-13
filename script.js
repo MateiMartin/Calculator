@@ -168,12 +168,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         display.value = ans.toString();
     });
-
-
-
-
-
-
-
-
 });
